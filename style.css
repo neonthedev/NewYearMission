@@ -286,3 +286,52 @@ header {
   height: 230px;
   border-radius: 10px 0px 10px 10px;
 }
+
+/* Portfolio section style */
+
+.protfolio-info {
+  margin-bottom: 50px;
+}
+.portfolio-subtext {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio-description {
+  color: rgba(12, 4, 27, 0.555);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 22px;
+}
+.portfolio-images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+}
+
+.portfolio-child {
+  box-shadow: 0 0 0 #aaa8a8;
+  transition: box-shadow 100ms ease;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.portfolio-child:hover {
+  transform: scale(1.1, 1.1);
+  z-index: 1;
+  border-radius: 10px;
+  filter: grayscale(60%);
+}
